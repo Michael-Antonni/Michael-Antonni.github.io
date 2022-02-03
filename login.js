@@ -48,7 +48,7 @@ formLoginAdmin.addEventListener('submit', async e => {
             }else{
                 if(document.password === admin.password){
                     console.log("password correcto");
-                    window.location="../admin/admin.html"; 
+                    window.location="admin/admin.html"; 
                 }else{
                     alert("ERROR: Error en contraseña");
                 }
@@ -96,7 +96,7 @@ formLoginDocente.addEventListener('submit', async e => {
                     console.log("password correcto");
                     
                     localStorage.setItem('docente', document.name);
-                    window.location="../docente/docente.html"; 
+                    window.location="docente/docente.html"; 
                     
                 }else{
                     alert("ERROR: Error en contraseña");
