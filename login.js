@@ -96,7 +96,7 @@ formLoginDocente.addEventListener('submit', async e => {
                     console.log("password correcto");
                     
                     localStorage.setItem('docente', document.name);
-                    window.location="../docente/docente.html"; 
+                    window.location="../docente.html"; 
                     
                 }else{
                     alert("ERROR: Error en contraseña");
